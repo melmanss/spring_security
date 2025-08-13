@@ -1,0 +1,97 @@
+/* Загальні стилі для тіла сторінки */
+body {
+    background-color: #f8f9fa; /* Світло-сірий фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Стилізація навігаційної панелі */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Контейнер для основного контенту */
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Стилізація карток для форм логіну та реєстрації */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-weight: 600;
+    color: #333;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Стилізація кнопок */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Стилізація полів вводу */
+.form-control {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Стилізація таблиці користувачів */
+h1 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    overflow: hidden; /* Щоб кути були заокругленими */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.table thead {
+    background-color: #e0f7ff; /* Світло-блакитний фон для заголовка таблиці */
+}
+
+.table th {
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.table tbody tr:first-child td {
+    border-top: none;
+}
